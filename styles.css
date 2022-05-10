@@ -22,27 +22,30 @@
 }
 
 /*Media Quary for Desktop Computers*/
-.column{
-	width: 800px;
-}
+
 @media(max-width:750px){
 	width: 100%;
+	.column{
+	width: 800px;
+}
 }
 
 /*Media Quary for Tablets*/
-.column{
-	width: 700px;
-}
+
 @media(max-width: 650px){
 	width: 100%;
+	.column{
+	width: 700px;
+}
 	}
 
 /*Media Quary for Mobile Phones*/
-.column{
-	width:450px;
-}
+
 @media(min-width: 300px){
 	width: 100%;
+	.column{
+	width:450px;
+}
 }
 
 
